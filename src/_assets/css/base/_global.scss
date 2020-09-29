@@ -1,0 +1,14 @@
+html,
+body {
+  font-family: $main-font;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .master-content {
+    margin: 2rem 0;
+    flex: 1;
+  }
+}

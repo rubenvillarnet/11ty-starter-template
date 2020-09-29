@@ -1,0 +1,42 @@
+---
+layout: master
+tags: nav
+label: "Slider"
+---
+<div class='container'>
+  <div class='row'>
+    <div class='col mb-4'>
+      <h1 class='h1'>
+        Flickity
+      </h1>
+      <p>
+        <a href='https://flickity.metafizzy.co/'>
+          Flickity documentation
+        </a>
+      </p>
+      <p>
+        <a href='https://www.npmjs.com/package/flickity'>
+          NPM package
+        </a>
+      </p>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='col'>
+      <div class='example-carousel'>
+        {{#each exampleCarousel}}
+          <div
+            class='carousel-cell'
+            style='background-image: url("/_assets/img/example/{{
+              this.image
+            }}");'
+          >
+            <p class='cell-title'>
+              {{this.title}}
+            </p>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</div>

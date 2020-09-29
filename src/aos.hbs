@@ -1,0 +1,27 @@
+---
+layout: master
+tags: nav
+label: "AOS"
+---
+<div class='container'>
+  <div class='row mb-4'>
+    <div class='col'>
+      <h1 class='h1'>
+        Animate on scroll
+      </h1>
+      <p><a href="https://github.com/michalsnik/aos">Animate on scroll settings</a></p>
+      <p><a href="http://michalsnik.github.io/aos/">AOS demo</a></p>
+      <p><a href="https://www.npmjs.com/package/aos">NPM package</a></p>
+    </div>
+  </div>
+  <div class='row'>
+    {{> components/aos-img img='slider-1.jpg' aos='fade-up'}}
+  </div>
+  <div class='row'>
+    {{> components/aos-img img='slider-2.jpg' aos='fade-right'}}
+    {{> components/aos-img img='slider-3.jpg' aos='fade-left'}}
+  </div>
+  <div class='row'>
+    {{> components/aos-img img='slider-4.jpg' aos='zoom-out'}}
+  </div>
+</div>

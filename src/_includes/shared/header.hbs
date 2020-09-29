@@ -1,0 +1,22 @@
+<header>
+  <div class='container'>
+    <div class='row'>
+      <div class='col'>
+        <span>
+          Header - {{site.title}}
+        </span>
+      </div>
+      <div class='col'>
+        <ul class='nav'>
+          {{#each collections.nav}}
+            <li class='nav-item'>
+              <a href='{{this.url}}' class='nav-link'>
+                {{this.data.label}}
+              </a>
+            </li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,22 @@
+---
+layout: master
+tags: nav
+label: "Popup"
+---
+<div class='container'>
+  <div class='row mb-4'>
+    <div class='col'>
+      <h1 class='h1'>
+        Popup
+      </h1>
+      <p><a href="https://dimsemenov.com/plugins/magnific-popup/documentation.html">Magnific Pop documentation</a></p>
+      <p><a href="https://dimsemenov.com/plugins/magnific-popup/">Demo</a></p>
+      <p><a href="https://www.npmjs.com/package/magnific-popup">NPM package</a></p>
+    </div>
+  </div>
+  <div class='row'>
+    {{#each exampleCarousel}}
+      {{> components/popup-item image=this.image}}
+    {{/each}}
+  </div>
+</div>

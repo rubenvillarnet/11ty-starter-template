@@ -1,0 +1,17 @@
+@import './vendors/bootstrap';
+@import './vendors/flickity';
+@import './vendors/magnific-popup';
+@import './vendors/coockieConsent';
+@import './vendors/aos';
+@import './vendors/hamburger';
+
+@import './abstracts/variables';
+
+@import './base/bootstrap_overrides';
+@import './base/reset';
+@import './base/global';
+
+@import './shared/header';
+@import './shared/footer';
+
+@import './pages/flickity';
