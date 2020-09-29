@@ -26,6 +26,7 @@ The template has several pages with demos and links to other packages documentat
 - Handlebars partials example.
 - Responsive [hamburguer](https://jonsuh.com/hamburgers/) menu.
 - [Font Awesome](https://fontawesome.com/) icons.
+- [Cookie consent](https://github.com/osano/cookieconsent).
 
 ## Available scripts
 
@@ -44,3 +45,7 @@ Open http://localhost:8080 to view it in the browser.
 # builds a static copy of your site to the `_site_/` folder.
 npm run build
 ```
+
+## Demo
+
+You can visit the deployed proyect [here](https://11ty-starter.vercel.app/)
