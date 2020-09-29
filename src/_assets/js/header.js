@@ -2,9 +2,13 @@ import $ from 'jquery';
 
 const currentPath = location.pathname;
 
-$('.nav li a').each(function () {
+$('.navbar-nav li a').each(function () {
   const $this = $(this);
   if ($this.attr('href') === currentPath) {
     $this.addClass('active');
   }
+});
+
+$('.hamburger').click(function () {
+  $(this).toggleClass('is-active');
 });

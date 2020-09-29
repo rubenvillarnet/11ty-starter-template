@@ -1,6 +1,9 @@
 header {
   padding: 2rem 0;
   background-color: #eeeeee;
+  .navbar-toggler:focus {
+    outline: none;
+  }
   .active {
     font-weight: bold;
     text-decoration: underline;
